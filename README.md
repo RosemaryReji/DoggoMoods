@@ -36,7 +36,7 @@ Animated GIFs – Visual feedback for detected emotions
 ### Implementation
 For Software:
 # Clone the repo
-git clone https://github.com/yourusername/doggomoods.git
+git clone https://github.com/RosemaryReji/DoggoMoods.git
 
 # Navigate to project folder
 cd doggomoods
