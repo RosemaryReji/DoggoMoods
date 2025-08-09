@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐶 DoggoMoods – Bark Emotion Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/sound"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">🐶 DoggoMoods – Bark Emotion Analyzer</h1>
+        
+        <div class="gif-container">
+            <img id="dogGif" src="curious.gif" alt="Dog emotion" class="dog-gif">
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn" class="start-button">Start Listening 🎤</button>
+        </div>
+        
+        <div id="status" class="status">Click "Start Listening" to begin analyzing bark emotions!</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
